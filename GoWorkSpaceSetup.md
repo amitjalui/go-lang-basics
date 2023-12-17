@@ -40,11 +40,11 @@
 >         * command: `go work use -r`
 >    * This is helpful if you have many subfolders with Go modules.
 
-> #### 2.2) Difference between `go work init` and `go work use`:
->* `go work init`:
->   * Initializes a new Go workspace by creating a go.work file at the specified directory.
->* `go work use`:
->   * Adds a specific Go module to your existing workspace by modifying the go.work file.
+#### Difference between `go work init` and `go work use`:
+* `go work init`:
+   * Initializes a new Go workspace by creating a go.work file at the specified directory.
+* `go work use`:
+   * Adds a specific Go module to your existing workspace by modifying the go.work file.
 
 
 ---
