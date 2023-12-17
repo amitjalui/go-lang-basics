@@ -3,3 +3,13 @@ E.g.
 Const LoginToken string = "abc"
       ^
 
+Package:
+bufio = use for reading input/output and store things to variables.
+
+os
+os.Stdin = use from reading input data
+
+strconv = helps in converting string val
+strconv.ParseFloat
+
+strings.TrimSpace = trim the empty space from the end

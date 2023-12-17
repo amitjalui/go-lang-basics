@@ -6,7 +6,7 @@ import "fmt"
 // var jwtToken = 30000 		// ✅
 // var jwtToken int = 30000 		// ✅
 
-const LoginToken string = "abc"		// variable name staring with CAP letter is declared as PUBLIC variables.
+const LoginToken string = "abc"		// variable name starting with CAP letter is declared as PUBLIC variables.
 
 func main() {
 	var username string = "amit"
@@ -61,6 +61,5 @@ func main() {
 	// Calling PUBLIC variables
 	fmt.Println(LoginToken)
 	fmt.Printf("var type of Public Variable: %T \n", LoginToken)
-
 
 }
