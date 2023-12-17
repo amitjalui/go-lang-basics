@@ -1,0 +1,5 @@
+Cap letter means PUBLIC variabe.
+E.g. 
+Const LoginToken string = "abc"
+      ^
+
