@@ -31,16 +31,16 @@
 
 > #### 2.1) Adding New Modules (Optional):
 > * There are two options for adding modules to your workspace:
->  * Option 1: Individual `go work use` commands:
->    * Use this command to add specific folders to your `go.work` file:
->      * command: `go work use ./<folderName>`
->      * Example: `go work use ./go_folder_3`
->  * Option 2: Adding all modules recursively:
-    * Use this command to add all directories with `go.mod` files within your current directory to `go.work`:
-      * command: `go work use -r`
-    * This is helpful if you have many subfolders with Go modules.
+>   * Option 1: Individual `go work use` commands:
+>     * Use this command to add specific folders to your `go.work` file:
+>       * command: `go work use ./<folderName>`
+>       * Example: `go work use ./go_folder_3`
+>   * Option 2: Adding all modules recursively:
+>      * Use this command to add all directories with `go.mod` files within your current directory to `go.work`:
+>         * command: `go work use -r`
+>    * This is helpful if you have many subfolders with Go modules.
 
-> #### 2.2) difference between `go work init` and `go work use`:
+> #### 2.2) Difference between `go work init` and `go work use`:
 >* `go work init`:
 >   * Initializes a new Go workspace by creating a go.work file at the specified directory.
 >* `go work use`:
